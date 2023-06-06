@@ -3,7 +3,7 @@ import numpy as np
 import warnings
 warnings.filterwarnings('ignore') 
 
-df = pd.read_excel('bank-additional.xlsx')
+df = pd.read_excel('mcaglaa/FinalProject/bank-additional.xlsx')
 df.rename(columns={'y': 'bank term deposit'}, inplace=True)
 df = df[df['housing'] != 'unknown']
 df.head()
