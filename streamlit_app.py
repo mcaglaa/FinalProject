@@ -358,7 +358,7 @@ def predict_term(data):
     else:
         return "Yes"
     
- def main():
+def main():
     # Set the app title
     st.set_page_config(page_title='Subscription to time deposits')
 
