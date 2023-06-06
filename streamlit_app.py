@@ -3,7 +3,6 @@ import numpy as np
 import seaborn as sns
 import matplotlib.pyplot as plt
 import warnings
-%matplotlib inline
 warnings.filterwarnings('ignore') 
 
 df = pd.read_excel('bank-additional.xlsx')
